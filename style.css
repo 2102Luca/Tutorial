@@ -41,6 +41,7 @@ section {
   float            : left;
   margin-top       : 15px;
   margin-right     : 15px;
+  margin-bottom    : 15px;
   padding          : 15px;
   border           : 1px solid #DEDCD9;
   border-radius    : 5px;
@@ -48,7 +49,7 @@ section {
 }
 
 .article {
-  height        : 120px;
+  height        : 117px;
   margin-top    : 15px;
   margin-bottom : 50px;
 }
@@ -68,6 +69,7 @@ aside {
   width            : 258px;
   float            : right;
   margin-top       : 15px;
+  margin-bottom    : 10px;
   padding          : 25px;
   border           : 1px solid #DEDCD9;
   border-radius    : 5px;
@@ -90,6 +92,44 @@ aside {
 }
 
 footer {
-  height     : 50px;
-  clear      : both;
+  clear            : both;
+  border           : 1px solid #DEDCD9;
+  border-radius    : 5px;
+  background-color : #F2F2F2;
+}
+
+footer u1 {
+  float      : left;
+  margin     : 20px;
+  padding    : 0px;
+  list-style : none;
+}
+
+footer li {
+  display      : inline;
+  margin-right : 15px;
+}
+
+footer p {
+  margin-right : 20px;
+  color        : #777;
+  text-align   : right;
+}
+
+#über {
+  margin : 15px;
+}
+
+#über h1 {
+  padding-bottom : 10px;
+  color          : #777;
+}
+
+#kontakt {
+  margin : 15px;
+}
+
+#kontakt h1 {
+  padding-bottom : 10px;
+  color          : #777;
 }
